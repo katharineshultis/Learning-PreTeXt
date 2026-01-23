@@ -4,7 +4,7 @@
   <!-- we first include a file which contains the docinfo element: -->
   <xi:include href="./docinfo.ptx" />
 
-  <book xml:id="my-great-book">
+  <book xml:id="GonzagaAbstractAlgebra">
     <title>Abstract Algebra</title>
     <subtitle>Course textbook for Math 437 and Math 438 at Gonzaga University with Dr. Shultis</subtitle>
 
@@ -25,6 +25,7 @@
     <xi:include href="./ch-WhatIsAGroup.ptx" />
     <xi:include href="./ch-Subgroups.ptx" />
     <xi:include href="./ch-NormalSubgroups.ptx" />
+    <xi:include href="./ch-QuotientGroups.ptx" />
 
 
     <!-- Include backmatter -->

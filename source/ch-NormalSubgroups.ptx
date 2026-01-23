@@ -67,16 +67,6 @@
         </row>
         </tabular>
       </table>
-      <!--<figure xml:id="group-table-S3">
-        <caption>Multiplication table for <m>S_3</m></caption>
-          <p><m>\begin{array}{c|ccc}
-            <![CDATA[\star & (1) & (123) & (132) \\
-            \hline
-            (1)       & (1) & (123) & (132) \\
-            (123)       & (123) & (132) & (1) \\
-            (132)       & (132) & (1) & (123)]]>
-            \end{array}</m></p>
-        </figure>-->
       <p>To check that it is normal, we need that <m>g^{-1}ng\in A_3</m> for every <m>n\in A_3</m> and every <m>g\in S_3</m>. Note that it is clear that <m>g^{-1}ng\in A_3</m> if <m>g,n\in A_3</m>, so we really only need to test this for <m>g\in S_3\setminus A_3</m>. You should do these computations to get more comfortable with cycle notation for elements of a permutation group.</p>
     </example>
     <p>Let <m>G</m> be a group written multiplicatively and <m>H</m> a subgroup of <m>G</m>. Recall that the <term>left cosets</term> of <m>H</m> in <m>G</m> are the sets of the form <m>gH=\{gh\mid h\in H\}</m>. We can similarly define the <term>right cosets</term> of <m>H</m> in <m>G</m> to be the sets of the form <m>Hg=\{hg\mid h\in H\}</m>.</p>
