@@ -424,9 +424,9 @@ var ptx_lunr_docs = [
   "body": "  Let be a group and a normal subgroup of . Then the group is called a quotient group of .   "
 },
 {
-  "id": "ch-QuotientGroups-9",
+  "id": "eg-Q8modZ",
   "level": "2",
-  "url": "ch-QuotientGroups.html#ch-QuotientGroups-9",
+  "url": "ch-QuotientGroups.html#eg-Q8modZ",
   "type": "Example",
   "number": "14.0.4",
   "title": "",
@@ -484,7 +484,124 @@ var ptx_lunr_docs = [
   "type": "Chapter",
   "number": "15",
   "title": "Group Homomorphisms",
-  "body": " Group Homomorphisms  Coming soon!  "
+  "body": " Group Homomorphisms   The learning outcomes for this chapter are to...  ...understand the definition of group homomorphisms and isomorphisms.  ...be able to give several (non)-examples of homomorphisms and isomorphisms.   Just like ring homomorphisms were the \"useful\" maps between rings, group homomorphisms can be viewed as the \"useful\" maps between groups. Recall also that the \"useful\" ring maps were ones that preserved the operations. Here's the main definition of this chapter:   Group Homomorophisms   Let and be groups, with operations and respectively. A function is called a group homomorphism (or simply homomorphism when it's clear we're discussing groups) if for every , .     A \"Natural\" Surjection  Let and . The function given by is a surjective group homomorphism. Indeed, .    Generalizing our \"Natural\" Surjection  More generally, there is a surjective group homomorphism for any group and normal subgroup of given by . (Possibly) you should prove this!?    A \"Natural\" Injection  Also, for any group and subgroup , the \"natural\" inclusion map: is an injective group homomorphism.    A Non-Example  The map given by is not a group homomorphism. Why not?   Take a look back at Definition 8.7 if you need reminders about the words injective, surjective, and\/or bijective.   Group Isomorphisms   Let and be groups. A function is called a group isomorphism (or simply isomorphism when it is clear we're discussing groups) if is a bijective homomorphism. When such an isomorphism exists, we say that and are isomorphic and denote this by .     An Isomorphism  Recall that the group from looked an awful lot like . In fact, these are isomorphic groups! We can demonstrate this by comparing Cayley tables and explicitly giving the bijection; however, showing the map is a homomorphism without demonstrating that the Cayley tables are just relabeled is harder to do. We'll come back to this in the next chapter once we have a few more tools to prove these are isomorphic in a nicer way.     Complete the missing parts above. They're listed below to help you out!  Let be a group and a subgroup of . From , show that the function given by is a surjective homomorphism. Note that this means you must both show it is a ring homomorphism and a surjective function.  Let be a subgroup of a group and the function from . Show that this is indeed a group homomorphism.  Recall that every ring is a group under addition, so when we discuss the group , we're using only the addition operation. Either prove the function given by is a group homomorphism, or demonstrate an explicit counterexample showing it is not a group homomorphism.      Here are some (non-)examples of group homomorphisms and isomorphisms. Show that each is a group homomorphism or is not a homomorphism. For those that are group homomorphisms, determine whether or not they're injective or surjective (or bijective). For those that are not group homomorphisms, provide an explicit counterexample to the definition of a group homomorphism. Since some of these are rings, so inherently come with two operations, does it matter which operation you choose? Phrased another way, is a ring also group under both operations? The function given by .  The function given by .  The function given by .  The function given by . As the notation here may be hard to follow, here's an example with : .      Recall from Example 11.9 that the group is the group of symmetries of a regular -gon and has elements. Prove that .      Recall from Example 11.9 that the group is the group of symmetries of a regular -gon and has elements. Prove that there is an injective homomorphism for all .      You may do any, all, or none of these problems. You will only be assigned them if you put them at the top of your list, or if you finish and need more to work on. They're all related to problem 8.D .   If , show that there is a surjective group homomorphism .    Explain why any group homomorphism with is not surjective and any homomorphism with is not injective.    List all the group homomorphisms , and . Like the examples in problem 8.D, some of these are likely large enough groups that it is a bad ida to try and list all the functions and identify the homomorphisms from that list. What patterns do you notice here? You need not prove the patterns hold true, just find at least one.    List all the group homomorphisms , and . Like some of the examples in problem 8.D, these are all large enough groups that it is a bad ida to try and list all the functions and identify the homomorphisms from that list. What patterns do you notice here? You need not prove the patterns hold true, just find at least one.        "
+},
+{
+  "id": "ch-GroupHomomorphisms-2",
+  "level": "2",
+  "url": "ch-GroupHomomorphisms.html#ch-GroupHomomorphisms-2",
+  "type": "Objectives",
+  "number": "15",
+  "title": "The learning outcomes for this chapter are to...",
+  "body": " The learning outcomes for this chapter are to...  ...understand the definition of group homomorphisms and isomorphisms.  ...be able to give several (non)-examples of homomorphisms and isomorphisms.  "
+},
+{
+  "id": "def-GroupHom",
+  "level": "2",
+  "url": "ch-GroupHomomorphisms.html#def-GroupHom",
+  "type": "Definition",
+  "number": "15.0.1",
+  "title": "Group Homomorophisms.",
+  "body": " Group Homomorophisms   Let and be groups, with operations and respectively. A function is called a group homomorphism (or simply homomorphism when it's clear we're discussing groups) if for every , .   "
+},
+{
+  "id": "ch-GroupHomomorphisms-5",
+  "level": "2",
+  "url": "ch-GroupHomomorphisms.html#ch-GroupHomomorphisms-5",
+  "type": "Example",
+  "number": "15.0.2",
+  "title": "A \"Natural\" Surjection.",
+  "body": " A \"Natural\" Surjection  Let and . The function given by is a surjective group homomorphism. Indeed, .  "
+},
+{
+  "id": "eg-GroupNatSurj",
+  "level": "2",
+  "url": "ch-GroupHomomorphisms.html#eg-GroupNatSurj",
+  "type": "Example",
+  "number": "15.0.3",
+  "title": "Generalizing our \"Natural\" Surjection.",
+  "body": " Generalizing our \"Natural\" Surjection  More generally, there is a surjective group homomorphism for any group and normal subgroup of given by . (Possibly) you should prove this!?  "
+},
+{
+  "id": "eg-GroupNatInj",
+  "level": "2",
+  "url": "ch-GroupHomomorphisms.html#eg-GroupNatInj",
+  "type": "Example",
+  "number": "15.0.4",
+  "title": "A \"Natural\" Injection.",
+  "body": " A \"Natural\" Injection  Also, for any group and subgroup , the \"natural\" inclusion map: is an injective group homomorphism.  "
+},
+{
+  "id": "ch-GroupHomomorphisms-8",
+  "level": "2",
+  "url": "ch-GroupHomomorphisms.html#ch-GroupHomomorphisms-8",
+  "type": "Example",
+  "number": "15.0.5",
+  "title": "A Non-Example.",
+  "body": " A Non-Example  The map given by is not a group homomorphism. Why not?  "
+},
+{
+  "id": "def-GroupIsom",
+  "level": "2",
+  "url": "ch-GroupHomomorphisms.html#def-GroupIsom",
+  "type": "Definition",
+  "number": "15.0.6",
+  "title": "Group Isomorphisms.",
+  "body": " Group Isomorphisms   Let and be groups. A function is called a group isomorphism (or simply isomorphism when it is clear we're discussing groups) if is a bijective homomorphism. When such an isomorphism exists, we say that and are isomorphic and denote this by .   "
+},
+{
+  "id": "ch-GroupHomomorphisms-11",
+  "level": "2",
+  "url": "ch-GroupHomomorphisms.html#ch-GroupHomomorphisms-11",
+  "type": "Example",
+  "number": "15.0.7",
+  "title": "An Isomorphism.",
+  "body": " An Isomorphism  Recall that the group from looked an awful lot like . In fact, these are isomorphic groups! We can demonstrate this by comparing Cayley tables and explicitly giving the bijection; however, showing the map is a homomorphism without demonstrating that the Cayley tables are just relabeled is harder to do. We'll come back to this in the next chapter once we have a few more tools to prove these are isomorphic in a nicer way.  "
+},
+{
+  "id": "exercises-GroupHom-1",
+  "level": "2",
+  "url": "exercises-GroupHom.html#exercises-GroupHom-1",
+  "type": "Exercise",
+  "number": "15.15.A",
+  "title": "",
+  "body": " Complete the missing parts above. They're listed below to help you out!  Let be a group and a subgroup of . From , show that the function given by is a surjective homomorphism. Note that this means you must both show it is a ring homomorphism and a surjective function.  Let be a subgroup of a group and the function from . Show that this is indeed a group homomorphism.  Recall that every ring is a group under addition, so when we discuss the group , we're using only the addition operation. Either prove the function given by is a group homomorphism, or demonstrate an explicit counterexample showing it is not a group homomorphism.    "
+},
+{
+  "id": "exercises-GroupHom-2",
+  "level": "2",
+  "url": "exercises-GroupHom.html#exercises-GroupHom-2",
+  "type": "Exercise",
+  "number": "15.15.B",
+  "title": "",
+  "body": " Here are some (non-)examples of group homomorphisms and isomorphisms. Show that each is a group homomorphism or is not a homomorphism. For those that are group homomorphisms, determine whether or not they're injective or surjective (or bijective). For those that are not group homomorphisms, provide an explicit counterexample to the definition of a group homomorphism. Since some of these are rings, so inherently come with two operations, does it matter which operation you choose? Phrased another way, is a ring also group under both operations? The function given by .  The function given by .  The function given by .  The function given by . As the notation here may be hard to follow, here's an example with : .   "
+},
+{
+  "id": "exercises-GroupHom-3",
+  "level": "2",
+  "url": "exercises-GroupHom.html#exercises-GroupHom-3",
+  "type": "Exercise",
+  "number": "15.15.C",
+  "title": "",
+  "body": "  Recall from Example 11.9 that the group is the group of symmetries of a regular -gon and has elements. Prove that .   "
+},
+{
+  "id": "exercises-GroupHom-4",
+  "level": "2",
+  "url": "exercises-GroupHom.html#exercises-GroupHom-4",
+  "type": "Exercise",
+  "number": "15.15.D",
+  "title": "",
+  "body": "  Recall from Example 11.9 that the group is the group of symmetries of a regular -gon and has elements. Prove that there is an injective homomorphism for all .   "
+},
+{
+  "id": "exercises-GroupHom-5",
+  "level": "2",
+  "url": "exercises-GroupHom.html#exercises-GroupHom-5",
+  "type": "Exercise",
+  "number": "15.15.E",
+  "title": "",
+  "body": "  You may do any, all, or none of these problems. You will only be assigned them if you put them at the top of your list, or if you finish and need more to work on. They're all related to problem 8.D .   If , show that there is a surjective group homomorphism .    Explain why any group homomorphism with is not surjective and any homomorphism with is not injective.    List all the group homomorphisms , and . Like the examples in problem 8.D, some of these are likely large enough groups that it is a bad ida to try and list all the functions and identify the homomorphisms from that list. What patterns do you notice here? You need not prove the patterns hold true, just find at least one.    List all the group homomorphisms , and . Like some of the examples in problem 8.D, these are all large enough groups that it is a bad ida to try and list all the functions and identify the homomorphisms from that list. What patterns do you notice here? You need not prove the patterns hold true, just find at least one.      "
 },
 {
   "id": "backmatter-2",
