@@ -75,7 +75,7 @@
             </p>
         </statement>
     </definition>
-    <example>
+    <example xml:id="eg-Q8modZ">
         <p> 
             Consider the group <m>Q_8</m> and the normal subgroup <m>\{1,-1\}</m> of <m>Q_8</m>, which we'll denote <m>Z</m>. 
             We should figure out if <m>Q_8/Z</m> is a group we've seen before by computing its elements and a Cayley table for the group.
